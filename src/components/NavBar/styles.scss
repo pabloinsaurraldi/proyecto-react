@@ -1,0 +1,24 @@
+.controlPadding {
+  padding-left: 35px;
+}
+.colorNavBar {
+  background-color: yellow;
+  padding: 25px;
+  .posicionEnlaces {
+    align-items: center;
+  }
+  .colorEnlaces {
+    font-size: 20px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    padding-left: 30px;
+  }
+  .colorBtn {
+    background-color: black;
+    color: yellow;
+    width: 110px;
+    border-radius: 10px;
+  }
+}
