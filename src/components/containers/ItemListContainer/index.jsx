@@ -1,8 +1,20 @@
-import React from 'react'
+import React from 'react';
+import Item from '../../Item';
+import './styles.scss';
 
 const ItemListContainer = () => {
   return (
-    <div>ItemListContainer</div>
+    <div className='contenedorDeCards'>
+      <Item Title={'Ryzen 5 5700G'}/>
+      <Item Title={'Ryzen 5 5700G'}/>
+      <Item Title={'Ryzen 5 5700G'}/>
+      <Item Title={'Ryzen 5 5700G'}/>
+      <Item Title={'Ryzen 5 5700G'}/>
+      <Item Title={'Ryzen 5 5700G'}/>
+      <Item Title={'Ryzen 5 5700G'}/>
+      <Item Title={'Ryzen 5 5700G'}/>
+      <Item Title={'Ryzen 5 5700G'}/>
+    </div>
   )
 }
 

@@ -2,14 +2,16 @@
   padding-left: 35px;
 }
 .colorNavBar {
-  background-color: yellow;
+  background-color: rgb(199, 199, 13);
   padding: 25px;
   .posicionEnlaces {
     align-items: center;
   }
+  .logoVerzall {
+    border-radius: 200px;
+  }
   .carrito {
-    height: 75px;
-    padding-right: 50px;
+    height: 55px;
     padding-left: 50px;
   }
   .colorEnlaces {
@@ -25,5 +27,18 @@
     color: yellow;
     width: 110px;
     border-radius: 10px;
+  }
+  .containerCarrito {
+    display: flex;
+    padding-right: 40px;
+    align-items: center;
+    gap: 10px;
+    .nroCarrito {
+      color: yellow;
+      background-color: black;
+      border-radius: 150px;
+      font-size: 20px;
+      width: 30px;
+    }
   }
 }

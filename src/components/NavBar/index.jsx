@@ -1,5 +1,6 @@
 import React from 'react';
 import '../NavBar/styles.scss';
+import '../Item/styles.scss'
 
 
 const NavBar = () => {
@@ -13,7 +14,7 @@ const NavBar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 posicionEnlaces">
         <li className="nav-item">
-          <a className="nav-link active colorEnlaces" aria-current="page" href="/#">Home</a>
+          <a href="/#"><img className='logoVerzall' src="https://res.cloudinary.com/dkn0guenm/image/upload/v1669063610/verzall/img/logo/logoMasChico_-_copia_-_copia_dqvqqb.jpg" alt="LogoVerzall" /></a>
         </li>
         <li className="nav-item">
           <a className="colorEnlaces" href="/#">Productos</a>
@@ -32,7 +33,10 @@ const NavBar = () => {
       </form>
     </div>
   </div>
-  <img className='carrito' src="https://cdn-icons-png.flaticon.com/512/46/46297.png?w=360" alt="imgCart" />
+  <div className='containerCarrito'>
+  <a href="/#"> <img className='carrito' src="https://cdn-icons-png.flaticon.com/512/46/46297.png?w=360" alt="imgCart" /></a>
+  <p className='nroCarrito'>5</p>
+  </div>
 </nav>
   )
 }
