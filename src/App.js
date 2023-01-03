@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar';
-import ItemListContainer from './components/containers/ItemListContainer'
-import Cantidad from './components/conteo/index'
+import ItemListContainer from './components/containers/ItemListContainer';
+import Cantidad from './components/Conteo'
 
 function App() {
   return (
