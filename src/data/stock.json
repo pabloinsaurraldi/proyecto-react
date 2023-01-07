@@ -1,369 +1,408 @@
 [
-    {
-        "id": "01",
-        "categoria": "Motherboard",
-        "marca": "Asus",
-        "modelo": "B550E",
-        "caracteristica": "AM4",
-        "precio": "57000",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572541/verzall/img/motherboard/asus-strix-b550e-gaming-am4_xe7aeh.png"
-    },
-    {
-        "id": "02",
-        "categoria": "Motherboard",
-        "marca": "Asus",
-        "modelo": "Prime B460",
-        "caracteristica": "AM4",
-        "precio": "36000",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572540/verzall/img/motherboard/asus-prime-b460ma-r21200_udgid0.png"
-    },
-    {
-        "id": "03",
-        "categoria": "Motherboard",
-        "marca": "Asus",
-        "modelo": "Prime X570",
-        "caracteristica": "AM4",
-        "precio": "73000",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572541/verzall/img/motherboard/asus-prime-x570p-am4_afbpjb.png"
-    },
-    {
-        "id": "04",
-        "categoria": "Motherboard",
-        "marca": "Asus",
-        "modelo": "Prime H510",
-        "caracteristica": "1200",
-        "precio": "57000",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572541/verzall/img/motherboard/asus-prime-h510me-1200_gmqbo7.png"
-    },
-    {
-        "id": "05",
-        "categoria": "Motherboard",
-        "marca": "Gigabyte",
-        "modelo": "Udax Z690",
-        "caracteristica": "1700",
-        "precio": "98000",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572541/verzall/img/motherboard/gigabyte-z690-udax-ddr-lga1700_zwpkto.png"
-    },
-    {
-        "id": "06",
-        "categoria": "Procesador",
-        "marca": "Intel",
-        "modelo": "I3 10100F",
-        "caracteristica": "4.3 Ghz",
-        "precio": "38000",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572548/verzall/img/procesadores/i3-10100F_kelsij.png"
-    },
-    {
-        "id": "07",
-        "categoria": "Procesador",
-        "marca": "Intel",
-        "modelo": "I5 10400",
-        "caracteristica": "4.2 Ghz",
-        "precio": "53000",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572549/verzall/img/procesadores/i5-10400_wqne5h.png"
-    },
-    {
-        "id": "08",
-        "categoria": "Procesador",
-        "marca": "Intel",
-        "modelo": "I7 9700F",
-        "caracteristica": "4.8 Ghz",
-        "precio": "71500",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572549/verzall/img/procesadores/i7-9700f_emr3om.png"
-    },
-    {
-        "id": "09",
-        "categoria": "Procesador",
-        "marca": "AMD",
-        "modelo": "RYZEN 3 PRO 4350G",
-        "caracteristica": "4.0 Ghz",
-        "precio": "29800",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572549/verzall/img/procesadores/ryzen3-4350g_vts1uk.png"
-    },
-    {
-        "id": "10",
-        "categoria": "Procesador",
-        "marca": "AMD",
-        "modelo": "RYZEN 5 5600G",
-        "caracteristica": "4.4 Ghz",
-        "precio": "43500",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572550/verzall/img/procesadores/ryzen5-5600g_qwyuib.png"
-    },
-    {
-        "id": "11",
-        "categoria": "Procesador",
-        "marca": "AMD",
-        "modelo": "RYZEN 9 5900x",
-        "caracteristica": "4.8 Ghz",
-        "precio": "119700",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572552/verzall/img/procesadores/ryzen9-5900x_t31d4f.png"
-    },
-    {
-        "id": "12",
-        "categoria": "Fuente",
-        "marca": "Corsair",
-        "modelo": "CV550",
-        "caracteristica": "550W 80 Plus Bronze",
-        "precio": "36700",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572560/verzall/img/fuentes/corsair-cv550-550w_p5pklp.png"
-    },
-    {
-        "id": "13",
-        "categoria": "Fuente",
-        "marca": "Aerocool",
-        "modelo": "Fuente certifdicada",
-        "caracteristica": "850w",
-        "precio": "18500",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572555/verzall/img/fuentes/aerocool-dorado-850w_gzzmok.png"
-    },
-    {
-        "id": "14",
-        "categoria": "Fuente",
-        "marca": "Corsair",
-        "modelo": "CX750",
-        "caracteristica": "750W, Semimodular 80 plus Silver",
-        "precio": "45000",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572556/verzall/img/fuentes/corsair-cx750m-750w_c79v1y.png"
-    },
-    {
-        "id": "15",
-        "categoria": "Fuente",
-        "marca": "Generica",
-        "modelo": "500W Pc de Hogar",
-        "caracteristica": "Sin certificacion",
-        "precio": "5000",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572556/verzall/img/fuentes/factory-price-case_dzgxlp.png"
-    },
-    {
-        "id": "16",
-        "categoria": "Memoria Ram",
-        "marca": "Corsair",
-        "modelo": "VENGEANCE PRO RGB",
-        "caracteristica": "8 GB DDR4 3200MHZ",
-        "precio": "14700",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572536/verzall/img/memorias/corsair-prosl-8gb-3200mhz_nznqsa.png"
-    },
-    {
-        "id": "17",
-        "categoria": "Memoria Ram",
-        "marca": "Corsair",
-        "modelo": "VENGEANCE PRO RGB",
-        "caracteristica": "4 GB DDR4 1600MHZ",
-        "precio": "7700",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572539/verzall/img/memorias/corsair-vengeance-4gb-ddr-1600mhz_ua8d4h.png"
-    },
-    {
-        "id": "18",
-        "categoria": "Memoria Ram",
-        "marca": "Crucial",
-        "modelo": "BALLISTIX ",
-        "caracteristica": "8 GB DDR4 3200MHZ",
-        "precio": "10300",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572538/verzall/img/memorias/crucial-ballistix-8gb-ddr4-3200mhz_zk6mo3.png"
-    },
-    {
-        "id": "19",
-        "categoria": "Memoria Ram",
-        "marca": "Crucial",
-        "modelo": "BALLISTIX ",
-        "caracteristica": "16 GB DDR4 3200MHZ",
-        "precio": "19300",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572538/verzall/img/memorias/crucial-ballistix-8gb-ddr4-3200mhz_zk6mo3.png"
-    },
-    {
-        "id": "20",
-        "categoria": "Memoria Ram",
-        "marca": "Crucial",
-        "modelo": "NOTEBOOK ",
-        "caracteristica": "4 GB DDR4 2666MHZ",
-        "precio": "6750",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572537/verzall/img/memorias/crucial-sodimm-4gb-ddr4-2666mhz_kuuqm5.png"
-    },
-    {
-        "id": "21",
-        "categoria": "Memoria Ram",
-        "marca": "Kingston",
-        "modelo": "FURY",
-        "caracteristica": "16 GB DDR5 4800 MHZ",
-        "precio": "17450",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572537/verzall/img/memorias/kingston-fury-16gb-ddr5-4800mhz_wt0moh.png"
-    },
-    {
-        "id": "22",
-        "categoria": "HDD",
-        "marca": "Seagate",
-        "modelo": "DISCO RIGIDO 2 TB",
-        "caracteristica": "7000 RPM",
-        "precio": "14750",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572534/verzall/img/almacenamiento/disco-rigido-seagate-2tb_lpboqe.png"
-    },
-    {
-        "id": "23",
-        "categoria": "HDD",
-        "marca": "Western Digital",
-        "modelo": "DISCO RIGIDO 1 TB",
-        "caracteristica": "7000 RPM",
-        "precio": "9750",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572535/verzall/img/almacenamiento/disco-rigido-wd-1tb_ahlrcf.png"
-    },
-    {
-        "id": "24",
-        "categoria": "Disco Solido",
-        "marca": "Gigabyte",
-        "modelo": "SSD M2",
-        "caracteristica": "NVME 240 GB",
-        "precio": "6750",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572534/verzall/img/almacenamiento/disco-ssd-m2-gigabyte_qsuzke.png"
-    },
-    {
-        "id": "25",
-        "categoria": "Placa de video",
-        "marca": "Gigabyte",
-        "modelo": "RTX 3090",
-        "caracteristica": "16GB VRAM",
-        "precio": "265000",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572545/verzall/img/placasdevideo/gigabyte-rtx3090_onkewz.png"
-    },
-    {
-        "id": "26",
-        "categoria": "Placa de video",
-        "marca": "Afox",
-        "modelo": "RX 580",
-        "caracteristica": "8 GB VRAM",
-        "precio": "60450",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572545/verzall/img/placasdevideo/afox-rx580_tjyphj.png"
-    },
-    {
-        "id": "27",
-        "categoria": "Placa de video",
-        "marca": "Msi",
-        "modelo": "GEFROCE GT710",
-        "caracteristica": "1GB VRAM",
-        "precio": "15500",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572545/verzall/img/placasdevideo/msi-geforcegt710_suavjj.png"
-    },
-    {
-        "id": "28",
-        "categoria": "Placa de video",
-        "marca": "Msi",
-        "modelo": "RTX 3060 TI",
-        "caracteristica": "8 GB VRAM",
-        "precio": "92400",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572546/verzall/img/placasdevideo/msi-rtx3060ti_xlmare.png"
-    },
-    {
-        "id": "29",
-        "categoria": "Placa de video",
-        "marca": "Palit",
-        "modelo": "RTX 1050 TI",
-        "caracteristica": "4 GB VRAM",
-        "precio": "75000",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572546/verzall/img/placasdevideo/palit-gtx1050ti_thszid.png"
-    },
-    {
-        "id": "30",
-        "categoria": "Placa de video",
-        "marca": "Powercolor",
-        "modelo": "RX550",
-        "caracteristica": "4 GB VRAM",
-        "precio": "63100",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572546/verzall/img/placasdevideo/powercolor-rx550_hwwzrg.png"
-    },
-    {
-        "id": "31",
-        "categoria": "Auricular",
-        "marca": "HyperX",
-        "modelo": "Cloud Alpha",
-        "caracteristica": "7.1",
-        "precio": "12650",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572538/verzall/img/auriculares/hyperx-cloud-alpha-black-red_bzjgye.png"
-    },{
-        "id": "32",
-        "categoria": "Auricular",
-        "marca": "HyperX",
-        "modelo": "Cloud Stinger",
-        "caracteristica": "Pc - Xbox",
-        "precio": "14400",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572537/verzall/img/auriculares/hyperx-cloud-stinger-xbox_s5bzwf.png"
-    },{
-        "id": "33",
-        "categoria": "Auricular",
-        "marca": "JBL",
-        "modelo": "Quantum 600",
-        "caracteristica": "Wireless",
-        "precio": "18100",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572544/verzall/img/auriculares/jbl-quantum-600-wireless_wgql9w.png"
-    },{
-        "id": "34",
-        "categoria": "Auricular",
-        "marca": "Logitech",
-        "modelo": "G733",
-        "caracteristica": "Wireless",
-        "precio": "10680",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572542/verzall/img/auriculares/logitech-g733-blue-wireless_vp11s3.png"
-    },{
-        "id": "35",
-        "categoria": "Auricular",
-        "marca": "Logitech",
-        "modelo": "Pro X",
-        "caracteristica": "Version LOL",
-        "precio": "23100",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572544/verzall/img/auriculares/logitech-pro-x-lol_oslhpn.png"
-    },{
-        "id": "36",
-        "categoria": "Mouse",
-        "marca": "Asus",
-        "modelo": "TUF Gaming M3",
-        "caracteristica": "16000 DPI RGB",
-        "precio": "8100",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572542/verzall/img/mouse/asus-tuf-gaming-m3rgb_benojx.png"
-    },{
-        "id": "37",
-        "categoria": "Mouse",
-        "marca": "HyperX",
-        "modelo": "Pulsefire Core",
-        "caracteristica": "8000 Dpi RGB",
-        "precio": "7340",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572542/verzall/img/mouse/hyperx-pulsefire-core-rgb_b2mazg.png"
-    },{
-        "id": "38",
-        "categoria": "Mouse",
-        "marca": "Logitech",
-        "modelo": "M90",
-        "caracteristica": "Sendosr Optico",
-        "precio": "4860",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572543/verzall/img/mouse/logitech-m90-optico_iwdffz.png"
-    },{
-        "id": "39",
-        "categoria": "Mouse",
-        "marca": "Logitech",
-        "modelo": "Super Light Black",
-        "caracteristica": "Wireless",
-        "precio": "9270",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572543/verzall/img/mouse/logitech-gprox-super-light-black_j2j1ff.png"
-    },{
-        "id": "40",
-        "categoria": "Teclado",
-        "marca": "HyperX",
-        "modelo": "Alloy Core",
-        "caracteristica": "RGB Teclas Multimedia",
-        "precio": "13100",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572553/verzall/img/teclados/hyperx-alloy-core-rgb_h7l9pu.png"
-    },{
-        "id": "41",
-        "categoria": "Teclado",
-        "marca": "Marvo",
-        "modelo": "KG656",
-        "caracteristica": "Mecanico RGB",
-        "precio": "13400",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572554/verzall/img/teclados/marvo-kg656-led_scnvll.png"
-    },{
-        "id": "42",
-        "categoria": "Teclado",
-        "marca": "HyperX",
-        "modelo": "Alloy FPS Pro",
-        "caracteristica": "Mecanico, cherry red",
-        "precio": "11400",
-        "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572553/verzall/img/teclados/hyperx-alloy-fpspro-cherry-red_hgqonx.png"
-    }
+  {
+    "id": "01",
+    "detalle": "Las tarjetas madre de la serie ROG Strix B550 Gaming ofrecen buena parte de las características que puedes encontrar en la serie de gama alta ROG Strix X570 Gaming, como por ejemplo PCIe® 4.0. Con un suministro de energía potente y una refrigeración eficaz, la serie ROG Strix B550 Gaming está optimizada para las CPU AMD Ryzen™ de 3.ª Gen. Con una estética futurista y el intuitivo software ROG, la ROG Strix B550-E Gaming es la plataforma ideal para montar el equipo de tus sueños.",
+    "categoria": "Motherboard",
+    "marca": "Asus",
+    "modelo": "B550E",
+    "caracteristica": "AM4",
+    "precio": "57000",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572541/verzall/img/motherboard/asus-strix-b550e-gaming-am4_xe7aeh.png"
+  },
+  {
+    "id": "02",
+    "detalle": "Tarjeta Madre mATX Intel® B460 (LGA 1200) con puerto Aura Sync RGB, Dual M.2, DDR4 2933MHz, HDMI, DisplayPort, puertos USB 3.2 Gen 1, lista para memoria Intel® Optane, SATA 6 Gbps",
+    "categoria": "Motherboard",
+    "marca": "Asus",
+    "modelo": "Prime B460",
+    "caracteristica": "AM4",
+    "precio": "36000",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572540/verzall/img/motherboard/asus-prime-b460ma-r21200_udgid0.png"
+  },
+  {
+    "id": "03",
+    "detalle": "Tarjeta madre para creación de contenido AMD X570 Ryzen AM4 ATX con PCIe® 4.0, diseño de enfriamiento PCH pasivo, puertos Thunderbolt™ 4 tipo C duales, Ethernet integrado de 10Gb y 2.5Gb, WiFi 6E, tres M.2 con disipadores de calor, USB 3.2 Gen 2 y gestión de seguridad avanzada",
+    "categoria": "Motherboard",
+    "marca": "Asus",
+    "modelo": "Prime X570",
+    "caracteristica": "AM4",
+    "precio": "73000",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572541/verzall/img/motherboard/asus-prime-x570p-am4_afbpjb.png"
+  },
+  {
+    "id": "04",
+    "detalle": "La PRIME H510M-D micro ATX Intel® H510 (LGA 1200) cuenta con PCIe 4.0, puerto M.2 de 32Gbps, Intel® 1 Gb Ethernet, HDMI, D-Sub, FAN Xpert, Armory Crate, 5X PROTECTION III, USB 3.2 Gen 1 Type-A, SATA 6 Gbps y puertos COM, LPT y RGB.",
+    "categoria": "Motherboard",
+    "marca": "Asus",
+    "modelo": "Prime H510",
+    "caracteristica": "1200",
+    "precio": "57000",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572541/verzall/img/motherboard/asus-prime-h510me-1200_gmqbo7.png"
+  },
+  {
+    "id": "05",
+    "detalle": "Plataforma: Intel - hasta 128 gb de Ram - Chipsets: Z590 - Socket: LGA1700 - Tipo de memoria RAM: DDR4",
+    "categoria": "Motherboard",
+    "marca": "Gigabyte",
+    "modelo": "Udax Z690",
+    "caracteristica": "1700",
+    "precio": "98000",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572541/verzall/img/motherboard/gigabyte-z690-udax-ddr-lga1700_zwpkto.png"
+  },
+  {
+    "id": "06",
+    "detalle": "Cantidad de núcleos 4 - Cantidad de subprocesos 8 - Frecuencia básica del procesador 3,60 GHz - Frecuencia turbo máxima 4,30 GHz - Caché 6 MB Intel® Smart Cache - Frecuencia de la Tecnología Intel® Turbo Boost 2.0 hasta 4.30 GHz",
+    "categoria": "Procesador",
+    "marca": "Intel",
+    "modelo": "I3 10100F",
+    "caracteristica": "4.3 Ghz",
+    "precio": "38000",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572548/verzall/img/procesadores/i3-10100F_kelsij.png"
+  },
+  {
+    "id": "07",
+    "detalle": "Memoria DDR4 - Cantidad de núcleos de CPU 6 - Zócalos compatibles FCLGA1200 - Generación 10° - Frecuencia máxima de reloj - 4.3 GHz",
+    "categoria": "Procesador",
+    "marca": "Intel",
+    "modelo": "I5 10400",
+    "caracteristica": "4.2 Ghz",
+    "precio": "53000",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572549/verzall/img/procesadores/i5-10400_wqne5h.png"
+  },
+  {
+    "id": "08",
+    "detalle": "RAM soportadas DDR4 - núcleos de CPU 8 - Zócalos compatibles FCLGA1151 - Generación: 9° - Frecuencia máxima de reloj 4.7 GHz",
+    "categoria": "Procesador",
+    "marca": "Intel",
+    "modelo": "I7 9700F",
+    "caracteristica": "4.8 Ghz",
+    "precio": "71500",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572549/verzall/img/procesadores/i7-9700f_emr3om.png"
+  },
+  {
+    "id": "09",
+    "detalle": "Memoria RAM soportadas: DDR4 - Frecuencia máxima de reloj: 4 GHz - Cantidad de núcleos de CPU 4 - Zócalos compatibles AM4",
+    "categoria": "Procesador",
+    "marca": "AMD",
+    "modelo": "RYZEN 3 PRO 4350G",
+    "caracteristica": "4.0 Ghz",
+    "precio": "29800",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572549/verzall/img/procesadores/ryzen3-4350g_vts1uk.png"
+  },
+  {
+    "id": "10",
+    "detalle": "Tipos de memoria RAM soportadas: DDR4 - Frecuencia máxima de reloj: 4.1 GHz - 6 nucleos - Zócalo AM4",
+    "categoria": "Procesador",
+    "marca": "AMD",
+    "modelo": "RYZEN 5 5600G",
+    "caracteristica": "4.4 Ghz",
+    "precio": "43500",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572550/verzall/img/procesadores/ryzen5-5600g_qwyuib.png"
+  },
+  {
+    "id": "11",
+    "detalle": "",
+    "categoria": "Procesador",
+    "marca": "AMD",
+    "modelo": "RYZEN 9 5900x",
+    "caracteristica": "4.8 Ghz",
+    "precio": "119700",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572552/verzall/img/procesadores/ryzen9-5900x_t31d4f.png"
+  },
+  {
+    "id": "12",
+    "detalle": "CV Series CV550: fuente de alimentación de 550 vatios con certificación 80 PLUS Bronze",
+    "categoria": "Fuente",
+    "marca": "Corsair",
+    "modelo": "CV550",
+    "caracteristica": "550W 80 Plus Bronze",
+    "precio": "36700",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572560/verzall/img/fuentes/corsair-cv550-550w_p5pklp.png"
+  },
+  {
+    "id": "13",
+    "detalle": "Fuente Aerocool Advanced Technologies - Modelo Dorado 850 W - Voltaje: 100V/240V - Proteecion de voltaje - Iluminacion RGB",
+    "categoria": "Fuente",
+    "marca": "Aerocool",
+    "modelo": "Fuente certifdicada",
+    "caracteristica": "850w",
+    "precio": "18500",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572555/verzall/img/fuentes/aerocool-dorado-850w_gzzmok.png"
+  },
+  {
+    "id": "14",
+    "detalle": "Fuente de alimentación ATX certificada CX Series™ CX750 — 750 Watt 80 PLUS® Bron",
+    "categoria": "Fuente",
+    "marca": "Corsair",
+    "modelo": "CX750",
+    "caracteristica": "750W, Semimodular 80 plus Silver",
+    "precio": "45000",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572556/verzall/img/fuentes/corsair-cx750m-750w_c79v1y.png"
+  },
+  {
+    "id": "15",
+    "detalle": "Fuente generica de 500w, ideal para pc de oficina y hogar",
+    "categoria": "Fuente",
+    "marca": "Generica",
+    "modelo": "500W Pc de Hogar",
+    "caracteristica": "Sin certificacion",
+    "precio": "5000",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572556/verzall/img/fuentes/factory-price-case_dzgxlp.png"
+  },
+  {
+    "id": "16",
+    "detalle": "Memoria RAM Vengeance RGB Pro gamer color negro 8GB 3200Mhz Corsair CMW8GX4M2C3200C16",
+    "categoria": "Memorias Ram",
+    "marca": "Corsair",
+    "modelo": "VENGEANCE PRO RGB",
+    "caracteristica": "8 GB DDR4 3200MHZ",
+    "precio": "14700",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572536/verzall/img/memorias/corsair-prosl-8gb-3200mhz_nznqsa.png"
+  },
+  {
+    "id": "17",
+    "detalle": "Memoria RAM Vengeance RGB Pro gamer color negro 4GB 1600Mhz Corsair CMW4GX4M2C1600C18",
+    "categoria": "Memorias Ram",
+    "marca": "Corsair",
+    "modelo": "VENGEANCE PRO RGB",
+    "caracteristica": "4 GB DDR4 1600MHZ",
+    "precio": "7700",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572539/verzall/img/memorias/corsair-vengeance-4gb-ddr-1600mhz_ua8d4h.png"
+  },
+  {
+    "id": "18",
+    "detalle": "Crucial Ballistix 8 GB - Formato UDIMM - DDR4 - 3200 mhz",
+    "categoria": "Memorias Ram",
+    "marca": "Crucial",
+    "modelo": "BALLISTIX ",
+    "caracteristica": "8 GB DDR4 3200MHZ",
+    "precio": "10300",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572538/verzall/img/memorias/crucial-ballistix-8gb-ddr4-3200mhz_zk6mo3.png"
+  },
+  {
+    "id": "19",
+    "detalle": "Crucial Ballistix 1 GB - Formato UDIMM - DDR4 - 3200 mhz",
+    "categoria": "Memorias Ram",
+    "marca": "Crucial",
+    "modelo": "BALLISTIX ",
+    "caracteristica": "16 GB DDR4 3200MHZ",
+    "precio": "19300",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572538/verzall/img/memorias/crucial-ballistix-8gb-ddr4-3200mhz_zk6mo3.png"
+  },
+  {
+    "id": "20",
+    "detalle": "Memoria Ram Sodimm Notebook Crucial/adata Ddr4 4gb 2400mhz",
+    "categoria": "Memorias Ram",
+    "marca": "Crucial",
+    "modelo": "NOTEBOOK ",
+    "caracteristica": "4 GB DDR4 2400MHZ",
+    "precio": "6750",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572537/verzall/img/memorias/crucial-sodimm-4gb-ddr4-2666mhz_kuuqm5.png"
+  },
+  {
+    "id": "21",
+    "detalle": "Memoria Kingston Fury 16gb 4800mhz Ddr5 Rgb UDDIM",
+    "categoria": "Memorias Ram",
+    "marca": "Kingston",
+    "modelo": "FURY",
+    "caracteristica": "16 GB DDR5 4800 MHZ",
+    "precio": "17450",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572537/verzall/img/memorias/kingston-fury-16gb-ddr5-4800mhz_wt0moh.png"
+  },
+  {
+    "id": "22",
+    "detalle": "Disco Rigido Interno Mecanico Seagate de 1 TB - 3.5 pulgadas - Interfaz Sata III - Aplicaciones NVR / DVR / RAID",
+    "categoria": "HDD",
+    "marca": "Seagate",
+    "modelo": "DISCO RIGIDO 2 TB",
+    "caracteristica": "7000 RPM",
+    "precio": "14750",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572534/verzall/img/almacenamiento/disco-rigido-seagate-2tb_lpboqe.png"
+  },
+  {
+    "id": "23",
+    "detalle": "Disco Rigido Interno Western Digital de 1 TB - 3.5 pulgadas - Interfaz Sata III - Aplicaciones NVR / DVR / RAID",
+    "categoria": "HDD",
+    "marca": "Western Digital",
+    "modelo": "DISCO RIGIDO 1 TB",
+    "caracteristica": "7000 RPM",
+    "precio": "9750",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572535/verzall/img/almacenamiento/disco-rigido-wd-1tb_ahlrcf.png"
+  },
+  {
+    "id": "24",
+    "detalle": "PCI-Express 3.0 x4, NVMe 1.4 - M.2 2280 - 240 GB - Velocidad de lectura secuencial hasta 3400 MB/s - Velocidad de escritura secuencial hasta 2500 MB/s",
+    "categoria": "Disco Solido",
+    "marca": "Gigabyte",
+    "modelo": "SSD M2",
+    "caracteristica": "NVME 240 GB",
+    "precio": "6750",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572534/verzall/img/almacenamiento/disco-ssd-m2-gigabyte_qsuzke.png"
+  },
+  {
+    "id": "25",
+    "detalle": "Multiprocesadores de Streaming NVIDIA Ampere - Segunda Generación de núcleos RT - Tercera Generación de núcleos Tensor - Integrada con 24GB GDDR6X de memoria - Enfriamiento WINDFORCE 3X con ventiladores de giro alterno - RGB Fusion 2.0 - Placa trasera protectora metálica",
+    "categoria": "Placa de video",
+    "marca": "Gigabyte",
+    "modelo": "RTX 3090",
+    "caracteristica": "16GB VRAM",
+    "precio": "265000",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572545/verzall/img/placasdevideo/gigabyte-rtx3090_onkewz.png"
+  },
+  {
+    "id": "26",
+    "detalle": "Estándar de bus PCI Express 3.0 - Memoria de video GDDR5 4096 MB / GDDR5 8192 MB - Resolución máxima DVI 2560 x 1600 - Salida DVI Sí x 1 - Puerto DP Sí x 3",
+    "categoria": "Placa de video",
+    "marca": "Afox",
+    "modelo": "RX 580",
+    "precio": "60450",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572545/verzall/img/placasdevideo/afox-rx580_tjyphj.png"
+  },
+  {
+    "id": "27",
+    "detalle": "Resolución máxima 4096 x 2160 pixeles - Tipo de memoria DDR3 1 GB - PCI Express x16 2.0",
+    "categoria": "Placa de video",
+    "marca": "Msi",
+    "modelo": "GEFROCE GT710",
+    "precio": "15500",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572545/verzall/img/placasdevideo/msi-geforcegt710_suavjj.png"
+  },
+  {
+    "id": "28",
+    "detalle": "Memoria gráfica GDDR6 8GB - PCI-Express 4.0 - Contectividad HDMI y DisplayPort",
+    "categoria": "Placa de video",
+    "marca": "Msi",
+    "modelo": "RTX 3060 TI",
+    "precio": "92400",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572546/verzall/img/placasdevideo/msi-rtx3060ti_xlmare.png"
+  },
+  {
+    "id": "29",
+    "detalle": "Resolución máxima 2048x1536 pixeles - Tipo de memoria DDR3 4 GB - Contectividad HDMI 2.0 y DisplayPort - PCI Express x16 3.0",
+    "categoria": "Placa de video",
+    "marca": "Palit",
+    "modelo": "RTX 1050 TI",
+    "precio": "75000",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572546/verzall/img/placasdevideo/palit-gtx1050ti_thszid.png"
+  },
+  {
+    "id": "31",
+    "detalle": "Los HyperX Cloud Alpha™ S se basan en los innovadores Cloud Alpha y ofrecen el sonido envolvente virtual 7.1 de HyperX1 de HyperX de ajuste personalizado. El mezclador de control del audio incluido te permite activar el sonido envolvente y ajustar el balance del chat y el audio del juego sin tener que ir a ningún menú. Se han añadido controles deslizantes para ajustar los graves a los cascos para que puedas personalizar el audio. Los Cloud Alpha S aún cuentan con el sistema de controlador de doble cámara, que reduce la distorsión y proporciona un sonido más claro, así como la comodidad característica de HyperX gracias a las almohadillas de espuma viscoelástica de los cascos, que son aún mejores con el cuero artificial supertranspirable añadido.",
+    "categoria": "Auricular",
+    "marca": "HyperX",
+    "modelo": "Cloud Alpha",
+    "caracteristica": "7.1",
+    "precio": "12650",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572538/verzall/img/auriculares/hyperx-cloud-alpha-black-red_bzjgye.png"
+  },
+  {
+    "id": "32",
+    "detalle": "Los auriculares HyperX Cloud Stinger™ son ideales para jugadores que buscan una comodidad ligera, una calidad de sonido excepcional y la mayor ventaja. Con un peso de solo 275 gramos, son cómodos para el cuello y sus almohadillas giran en un ángulo de 90 grados para un mejor ajuste. Sus controladores direccionales de 50 mm posicionan el sonido directamente hacia el oído para una precisión de audio y una calidad del sonido al nivel del juego más exigente. Cuenta con espuma viscoelástica exclusiva HyperX de gran calidad para ofrecer una comodidad excepcional en sesiones de juego prolongadas.",
+    "categoria": "Auricular",
+    "marca": "HyperX",
+    "modelo": "Cloud Stinger",
+    "caracteristica": "Pc - Xbox",
+    "precio": "14400",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572537/verzall/img/auriculares/hyperx-cloud-stinger-xbox_s5bzwf.png"
+  },
+  {
+    "id": "33",
+    "detalle": "Consigue la máxima ventaja competitiva con JBL Quantum. Gracias a años de investigación, ofrecemos productos diseñados con precisión y un software de vanguardia personalizado para situarte en el centro de la acción. La gama de gaming JBL Quantum incluye auriculares de diadema, auriculares TWS, micrófonos y altavoces creados para permitirte llegar a lo más alto con un sonido hiperpreciso y envolvente que revela cada detalle del mundo que te rodea. Vive cada juego y no te pierdas ni un paso, ni un tiro, ni un salto.",
+    "categoria": "Auricular",
+    "marca": "JBL",
+    "modelo": "Quantum 600",
+    "caracteristica": "Wireless",
+    "precio": "18100",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572544/verzall/img/auriculares/jbl-quantum-600-wireless_wgql9w.png"
+  },
+  {
+    "id": "34",
+    "detalle": "Auriculares con micrófono inalámbricos Logitech G733 para gaming con diadema con suspensión, LIGHTSPEED, RGB LIGHTSYNC, tecnología de micrófono Blue VO!CE y transductores de audio PROG",
+    "categoria": "Auricular",
+    "marca": "Logitech",
+    "modelo": "G733",
+    "caracteristica": "Wireless",
+    "precio": "10680",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572542/verzall/img/auriculares/logitech-g733-blue-wireless_vp11s3.png"
+  },
+  {
+    "id": "35",
+    "detalle": "Diseñados con y para profesionales. El sonido envolvente 7.1 de próxima generación y los transductores PRO-G de 50 mm garantizan un audio de juegos premium. El micrófono suena estupendo con tarjeta de sonido USB externa con filtros de difusión Blue VO!CE.",
+    "categoria": "Auricular",
+    "marca": "Logitech",
+    "modelo": "Pro X",
+    "caracteristica": "Version LOL",
+    "precio": "23100",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572544/verzall/img/auriculares/logitech-pro-x-lol_oslhpn.png"
+  },
+  {
+    "id": "36",
+    "detalle": "TUF Gaming M3: Ratón ergonómico para juegos con conexión por cable, sensor de 7000 ppp, construcción ligera, revestimiento duradero, interruptores muy resistentes, siete botones programables y Aura Sync RGB.",
+    "categoria": "Mouse",
+    "marca": "Asus",
+    "modelo": "TUF Gaming M3",
+    "caracteristica": "16000 DPI RGB",
+    "precio": "8100",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572542/verzall/img/mouse/asus-tuf-gaming-m3rgb_benojx.png"
+  },
+  {
+    "id": "37",
+    "detalle": "HyperX Pulsefire Core ™ ofrece lo esencial para los jugadores que buscan un ratón para juegos RGB sólido, cómodo y con cable. El sensor óptico Pixart 3327 brinda a los jugadores un seguimiento preciso y suave sin aceleración de hardware, y tiene configuraciones de DPI nativas de hasta 6200 DPI. El Pulsefire Core, de diseño ergonómico, tiene agarres laterales texturizados para un agarre cómodo y antideslizante, y su forma simétrica es adecuada para agarre tanto en la palma como en la garra. Cuenta con interruptores de alta calidad con una respuesta táctil nítida y clasificada para hasta 20 millones de clics. Personalice la iluminación, la configuración de PPP y las macros para 7 botones programables con el software HyperX NGenuity y configure el mouse de la forma que desee. Los patines grandes de Pulsefire Core ayudan a proporcionar una orientación precisa al brindarle un deslizamiento suave y controlado al mover el mouse.",
+    "categoria": "Mouse",
+    "marca": "HyperX",
+    "modelo": "Pulsefire Core",
+    "caracteristica": "8000 Dpi RGB",
+    "precio": "7340",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572542/verzall/img/mouse/hyperx-pulsefire-core-rgb_b2mazg.png"
+  },
+  {
+    "id": "38",
+    "detalle": "Confortable, sencillo y listo para usar. Es un ratón de tamaño normal para ambidiestros, de diseño simple y listo para cumplir con tus necesidades, sin problemas. Solo conecta el cable en el puerto USB y al instante estarás usando un ratón que sencillamente funciona.  ",
+    "categoria": "Mouse",
+    "marca": "Logitech",
+    "modelo": "M90",
+    "caracteristica": "Sendosr Optico",
+    "precio": "4860",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572543/verzall/img/mouse/logitech-m90-optico_iwdffz.png"
+  },
+  {
+    "id": "39",
+    "detalle": "Elimina todos los obstáculos para ganar con nuestro mouse inalámbrico PRO más ligero y rápido. El nuevo favorito de los mejores profesionales de esports pesa menos de 63 gramos y se desliza sin apenas fricción. PRO X SUPERLIGHT hace gala de nuestra tecnología de diseño ZERØ OPOSICIÓN, nuestro propósito de eliminar obstáculos y crear una conexión lo más pura posible entre el jugador y el juego.",
+    "categoria": "Mouse",
+    "marca": "Logitech",
+    "modelo": "Super Light Black",
+    "caracteristica": "Wireless",
+    "precio": "9270",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572543/verzall/img/mouse/logitech-gprox-super-light-black_j2j1ff.png"
+  },
+  {
+    "id": "40",
+    "detalle": "Contar con la barra de luz exclusiva de HyperX y con los efectos de iluminación dinámicos RGB, el HyperX Alloy Core RGB™ es ideal para los gamers que buscan ampliar el estilo y rendimiento de su teclado sin tirar la casa por la ventana. Con seis efectos de iluminación diferentes y tres niveles de brillo, representa el equilibrio ideal entre esplendor y presupuesto. Construido con una estructura plástica reforzada, el Alloy Core RGB fue diseñado para brindar una mayor estabilidad y confiabilidad para los gamers que deseen un teclado duradero. Las teclas de pulsación suave ofrecen una sensación táctil, y a su vez están diseñadas para ser silenciosas y cuentan con una funcionalidad anti-ghosting para gaming y rollover en teclas. Es resistente a los derrames, y está probado para soportar hasta 120ml de líquido, por lo que los accidentes con bebidas no significarán el fin de tu juego. Los controles multimedia especiales y los botones de acceso rápido para iluminación y modo Juego te permiten tener el control al alcance de la mano. El bloqueo de teclado te permite inmovilizar tu teclado sin tener que poner todo el sistema en standby. El Alloy Core RGB es elegante y tiene funciones atractivas, lo cual lo convierte en una opción de teclado muy interesante para los gamers.",
+    "categoria": "Teclado",
+    "marca": "HyperX",
+    "modelo": "Alloy Core",
+    "caracteristica": "RGB Teclas Multimedia",
+    "precio": "13100",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572553/verzall/img/teclados/hyperx-alloy-core-rgb_h7l9pu.png"
+  },
+  {
+    "id": "41",
+    "detalle": "Teclado mecanico, con retroiluminacion RGB - Teclas multimedia - switches red ideal para gaming - Juega como un profesional y desafia tus limites ",
+    "categoria": "Teclado",
+    "marca": "Marvo",
+    "modelo": "KG656",
+    "caracteristica": "Mecanico RGB",
+    "precio": "13400",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572554/verzall/img/teclados/marvo-kg656-led_scnvll.png"
+  },
+  {
+    "id": "42",
+    "detalle": "Teclado mecánico para videojuegos HyperX Alloy FPS Pro El HyperX™ Alloy FPS Pro es para el jugador FPS que desea un teclado sin tenkey (TKL) fiable y preciso que le permita aumentar su espacio del escritorio. Este teclado de 87 teclas proporciona todo lo que un jugador profesional necesita, pero sin el teclado numérico. El Alloy FPS Pro está disponible con teclas CHERRY® MX azules o rojas1 fiables y con excelente capacidad de respuesta, y su sólida estructura de acero garantiza que dispondrás de una plataforma estable durante las partes más importantes de los juegos. El diseño ultramínimo y el cable extraíble hacen que el teclado sea extremadamente portátil, pero está repleto de funciones: modo de juego, 100% anti-ghosting, N-key rollover y los efectos dinámicos y de iluminación de color rojo de HyperX para destacar el estilo de tu sistema. Diseño ultraminimalista sin tenkey (TKL). Estructura sólida de acero. Teclas mecánicas CHERRY® MXDiseño portátil con cable extraíbleModo de juego, 100% anti-ghosting y funciones N-key rollover",
+    "categoria": "Teclado",
+    "marca": "HyperX",
+    "modelo": "Alloy FPS Pro",
+    "caracteristica": "Mecanico, cherry red",
+    "precio": "11400",
+    "imgSrc": "https://res.cloudinary.com/dkn0guenm/image/upload/v1662572553/verzall/img/teclados/hyperx-alloy-fpspro-cherry-red_hgqonx.png"
+  }
 ]
