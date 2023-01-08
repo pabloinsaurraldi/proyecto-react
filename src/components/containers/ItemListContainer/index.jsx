@@ -28,7 +28,7 @@ const ItemListContainer = () => {
         }
         }
         )
-      .catch((err) => {
+      .catch((error) => {
         alert("Error Inesperado")
       })
 

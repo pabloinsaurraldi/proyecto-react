@@ -22,7 +22,7 @@ const NavBar = () => {
           <span className="dropdown-toggle colorEnlaces" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Categorias
           </span>
-          <ul class="dropdown-menu">
+          <ul className="dropdown-menu">
             <li><Link to= "/categoria/Motherboard" className="dropdown-item">Motherboards</Link></li>
             <li><Link to= "/categoria/Procesadores" className="dropdown-item">Procesadores</Link></li>
             <li><Link to= "/categoria/Fuentes" className="dropdown-item">Fuentes</Link></li>
