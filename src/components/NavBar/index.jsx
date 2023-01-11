@@ -37,9 +37,6 @@ const NavBar = () => {
         <li className="nav-item">
           <a className="colorEnlaces" href="/#">Contactanos</a>
         </li>
-        <li className="nav-item">
-          <a className="colorEnlaces" href="/#">Acerca de nosotros</a>
-        </li>
        
       </ul>
       <form className="d-flex" role="search">

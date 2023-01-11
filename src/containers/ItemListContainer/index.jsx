@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import ItemList from '../../ItemList';
-import componentes from '../../../data/stock.json'
+import ItemList from '../../components/ItemList';
+import componentes from '../../data/stock.json'
 import './styles.scss';
 
 
@@ -35,7 +35,7 @@ const ItemListContainer = () => {
   }, [categoryId])
 
   return (
-    <div className='contenedorDeCards'>
+    <div>
       <ItemList componentes={productos} />
     </div>
   )

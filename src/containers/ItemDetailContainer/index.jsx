@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import ItemDetail from '../../../components/ItemDetail';
-import componentes from '../../../data/stock.json'
+import ItemDetail from '../../components/ItemDetail';
+import componentes from '../../data/stock.json'
 
 const ItemDetailContainer = () => {
 
@@ -35,7 +35,7 @@ const ItemDetailContainer = () => {
   }, [id])
 
   return (
-    <div>
+    <div className='contieneCardDetail'>
         <ItemDetail detail={detail} />
     </div>
   )

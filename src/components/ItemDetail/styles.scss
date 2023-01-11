@@ -1,0 +1,46 @@
+.contieneCardDetail {
+  background-image: linear-gradient(
+    to top,
+    rgba(247, 235, 6, 0.87),
+    #ad9553,
+    black
+  );
+  .imagenProducto {
+    display: flex;
+    align-items: center;
+  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 100px;
+  .card-title {
+    text-align: center;
+    font-size: 50px;
+  }
+  .imagenesPreciosLista {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    align-items: center;
+  }
+  .precios {
+    padding-top: 40px;
+    .containerLista {
+      padding-top: 30px;
+      .imgCuotas {
+        height: 80px;
+      }
+      .imgCuotas2 {
+        height: 140px;
+      }
+    }
+    .containerEfectivo {
+      padding-bottom: 30px;
+    }
+    .efectivo {
+      font-size: 35px;
+      text-align: center;
+      color: gray;
+    }
+  }
+}
