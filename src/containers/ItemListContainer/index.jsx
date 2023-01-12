@@ -9,6 +9,8 @@ const ItemListContainer = () => {
 
   const [productos, setProductos] = useState([])
 
+  const [anuncio, setAnuncio] = useState(true)
+
   const {categoryId} = useParams()
 
   useEffect (() => {
@@ -34,8 +36,12 @@ const ItemListContainer = () => {
 
   }, [categoryId])
 
+  const handleCierraAnuncio = () => {
+    setAnuncio(false)
+  }
+
   return (
-    <div>
+    <div className='contenedorDeCards'>
       <ItemList componentes={productos} />
     </div>
   )

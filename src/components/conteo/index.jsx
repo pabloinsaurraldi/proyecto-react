@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../Conteo/styles.scss';
 
-const Cantidad = () => {
+const Cantidad = ({onAdd}) => {
   const [count, setCount] = useState(0);
   const [stock, setStock] = useState(7);
   
@@ -28,10 +28,12 @@ const vaciarCarrito = () => {
         <button disabled = {count <= 0} className='resta' onClick={quitarProducto}>-</button>
         <span className='nro'>{count}</span>
         <button disabled = {count >= 7} className='suma' onClick={agregarProducto}>+</button>
+        
       </div>
 
       <div className='contenedorSumaYResta'>  
         <button disabled = {count <= 0} className='vaciarCarrito' onClick={vaciarCarrito}>Vaciar</button>
+        <button className='vaciarCarrito' onClick={()=> onAdd(count)}>Confirmar compra</button>
       </div>
     </div>
   );

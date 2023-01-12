@@ -15,7 +15,7 @@
   padding-top: 100px;
   .card-title {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
   }
   .imagenesPreciosLista {
     display: flex;
@@ -27,6 +27,16 @@
     padding-top: 40px;
     .containerLista {
       padding-top: 30px;
+      .irAlCarrito {
+        background-color: yellow;
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .cantidadContainer {
+        display: flex;
+        justify-content: center;
+      }
       .imgCuotas {
         height: 80px;
       }

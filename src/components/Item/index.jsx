@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Item = ({component2}) => {
   return (
-    <div className="card" style= {{width: '18rem'}}>
+    <div className="card" style= {{width: '15rem'}}>
       <img src= {component2.imgSrc} alt= {component2.categoria} />
       <div className="card-body">
         <h4 className="card-title"> {component2.marca} </h4>

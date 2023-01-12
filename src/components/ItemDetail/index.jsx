@@ -1,8 +1,18 @@
 import React from 'react';
 import '../ItemDetail/styles.scss'
 import Cantidad from '../Conteo';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const ItemDetail = ({ detail }) => {
+
+    const [quantity, setQuantity] = useState(0)
+
+    const onAdd = (cantidad) => {
+        console.log(`se agregaron esta cantidad de productos: ${cantidad}`);
+        setQuantity(cantidad)
+    
+    }
 
     return ( 
         <div className="card mb-3">
@@ -29,7 +39,17 @@ const ItemDetail = ({ detail }) => {
                                         <img className='imgCuotas2' src="https://s03.s3c.es/imag/_v0/487x453/2/5/a/mercado-pago.png" alt="logoMp" />
                                     </div>
                                     <div className='cantidadContainer'>
-                                        <Cantidad />
+                                        {
+                                            quantity === 0 ?
+                                            <Cantidad 
+                                            onAdd={onAdd}
+                                        />
+                                        : <button className='irAlCarrito'>
+                                            <Link to="/carrito">
+                                                Ir al carrito
+                                            </Link>
+                                        </button>
+                                        }
                                     </div>
                                  </div>
                             </div>
