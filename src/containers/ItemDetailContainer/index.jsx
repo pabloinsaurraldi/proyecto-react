@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import ItemDetail from '../../components/ItemDetail';
 import componentes from '../../data/stock.json'
+import '../ItemListContainer/styles.scss'
 
 const ItemDetailContainer = () => {
 
@@ -38,7 +39,14 @@ const ItemDetailContainer = () => {
     <div className='contieneCardDetail'>
       {
         Object.keys(detail).length === 0
-        ? <h2>Loading ...</h2>
+        ? <div class="wrapper">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+          </div>
         : <ItemDetail detail={detail} />
       }
     </div>
