@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Conteo/styles.scss';
+import '../ItemCount/styles.scss';
 
 const Cantidad = ({onAdd}) => {
   const [count, setCount] = useState(0);

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../ItemDetail/styles.scss'
-import Cantidad from '../Conteo';
+import Cantidad from '../ItemCount';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
