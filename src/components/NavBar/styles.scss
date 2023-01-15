@@ -10,10 +10,7 @@
   .logoVerzall {
     border-radius: 300px;
   }
-  .carrito {
-    height: 55px;
-    padding-left: 50px;
-  }
+
   .colorEnlaces {
     font-size: 20px;
     align-items: center;
@@ -27,19 +24,5 @@
     color: yellow;
     width: 110px;
     border-radius: 10px;
-  }
-  .containerCarrito {
-    display: flex;
-    padding-right: 40px;
-    align-items: center;
-    gap: 10px;
-    .nroCarrito {
-      color: yellow;
-      background-color: black;
-      border-radius: 150px;
-      font-size: 20px;
-      width: 30px;
-      text-align: center;
-    }
   }
 }

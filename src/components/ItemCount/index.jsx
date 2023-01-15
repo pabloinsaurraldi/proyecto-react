@@ -33,7 +33,7 @@ const vaciarCarrito = () => {
 
       <div className='contenedorSumaYResta'>  
         <button disabled = {count <= 0} className='vaciarCarrito' onClick={vaciarCarrito}>Vaciar</button>
-        <button className='vaciarCarrito' onClick={()=> onAdd(count)}>Confirmar compra</button>
+        <button disabled = {count <= 0} className='vaciarCarrito' onClick={()=> onAdd(count)}>Confirmar compra</button>
       </div>
     </div>
   );

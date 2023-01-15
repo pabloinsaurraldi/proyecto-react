@@ -2,6 +2,7 @@ import React from 'react';
 import '../NavBar/styles.scss';
 import '../Item/styles.scss'
 import { Link } from 'react-router-dom';
+import CartWidget from '../CartWidget';
 
 
 const NavBar = () => {
@@ -45,9 +46,8 @@ const NavBar = () => {
       </form>
     </div>
   </div>
-  <div className='containerCarrito'>
-  <a href="/#"> <img className='carrito' src="https://cdn-icons-png.flaticon.com/512/46/46297.png?w=360" alt="imgCart" /></a>
-  <p className='nroCarrito'>5</p>
+  <div>
+    <CartWidget/>
   </div>
 </nav>
   )

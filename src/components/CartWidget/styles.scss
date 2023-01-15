@@ -1,0 +1,18 @@
+.containerCarrito {
+  display: flex;
+  padding-right: 40px;
+  align-items: center;
+  gap: 10px;
+  .carrito {
+    height: 55px;
+    padding-left: 50px;
+  }
+  .nroCarrito {
+    color: yellow;
+    background-color: black;
+    border-radius: 150px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+  }
+}
