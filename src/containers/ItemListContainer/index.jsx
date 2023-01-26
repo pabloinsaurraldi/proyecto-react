@@ -3,15 +3,37 @@ import { useParams } from 'react-router-dom';
 import ItemList from '../../components/ItemList';
 import componentes from '../../data/stock.json'
 import './styles.scss';
+import { db } from '../../firebase/config';
+import { collection, getDocs } from "firebase/firestore"; 
 
 
 const ItemListContainer = () => {
 
   const [productos, setProductos] = useState([])
 
+  console.log(db)
+
   const {categoryId} = useParams()
 
   useEffect (() => {
+
+    const traerProductos = async () => {
+      const querySnapshot = await getDocs(collection(db, "componentes"));
+      const componentesFirebase = []
+      querySnapshot.forEach((doc) => {
+        console.log(`${doc.id} => ${doc.data()}`);
+        const producto = {
+          id: doc.id,
+          ...doc.data()
+        }
+        componentesFirebase.push(producto)
+  });
+  setProductos(componentesFirebase)
+
+  }
+
+    traerProductos()
+
     const promesa = new Promise ((accept, reject) => {
       setTimeout (() => {
         accept (componentes)
@@ -38,13 +60,13 @@ const ItemListContainer = () => {
     <div className='contenedorDeCards'>
       {
         Object.keys(productos).length ===0
-        ? <div class="wrapper">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="shadow"></div>
-            <div class="shadow"></div>
-            <div class="shadow"></div>
+        ? <div className="wrapper">
+            <div className="circle"></div>
+            <div className="circle"></div>
+            <div className="circle"></div>
+            <div className="shadow"></div>
+            <div className="shadow"></div>
+            <div className="shadow"></div>
             </div>
         : <ItemList componentes={productos} /> 
       }

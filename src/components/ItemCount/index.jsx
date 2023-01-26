@@ -7,6 +7,7 @@ const Cantidad = ({onAdd}) => {
   
 
   const agregarProducto = () => {
+
     setCount(count + 1);
     setStock(stock - 1);
   };
@@ -19,6 +20,7 @@ const Cantidad = ({onAdd}) => {
 const vaciarCarrito = () => {
   setCount(0)
   setStock(7)
+
 }
 
   return (

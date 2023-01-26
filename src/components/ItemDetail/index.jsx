@@ -22,13 +22,14 @@ const ItemDetail = ({ detail }) => {
         <div className="card mb-3">
             <div className="row g-0">
                 <div className="col-md-4 imagenProducto">
-                    <img src= {detail.imgSrc} class="img-fluid rounded-start" alt="" />
+                    <img src= {detail.imgSrc} className="img-fluid rounded-start" alt="" />
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">
                         <h3 className="card-title"> {detail.categoria} </h3>
                         <h5 className="card-title"> {detail.modelo} </h5>
                         <p className="card-text"> {detail.detalle} </p>
+                        <p className="card-text"> <strong>Stock del Producto:</strong> {detail.stock} </p>
                              <div className='precios'>
                                 <div className='containerEfectivo'>
                                     <h5 className="card-text efectivo">Efectivo </h5>
