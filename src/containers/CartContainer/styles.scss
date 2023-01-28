@@ -6,7 +6,33 @@
   padding: 100px;
   width: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  .totalYPrecio {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: yellow;
+    margin: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
 .imgCarrito {
   height: 90px;
+}
+.finOperacion {
+  background-color: black;
+  color: yellow;
+  width: 200px;
+  height: 45px;
+  border-radius: 15px;
+}
+.total {
+  background-color: black;
+  display: flex;
+}
+.btnEliminar {
+  background-color: black;
+  border-radius: 10px;
 }

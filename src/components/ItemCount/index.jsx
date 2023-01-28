@@ -1,25 +1,27 @@
 import React, { useState } from 'react';
 import '../ItemCount/styles.scss';
 
-const Cantidad = ({onAdd}) => {
+const Cantidad = ({onAdd, stock: stockProd}) => {
   const [count, setCount] = useState(0);
-  const [stock, setStock] = useState(7);
+  const [stock, setStock] = useState(stockProd)
   
 
-  const agregarProducto = () => {
 
-    setCount(count + 1);
-    setStock(stock - 1);
+  let agregarProducto = () => {
+    setCount(count + 1)
+    setStock(stock - 1)
   };
 
-  const quitarProducto = () => {
+
+  let quitarProducto = () => {
     setCount(count - 1)
-    setStock(stock + 1);
+    setStock(stock + 1)
+    
   };
 
 const vaciarCarrito = () => {
   setCount(0)
-  setStock(7)
+  setStock(stockProd)
 
 }
 
@@ -29,13 +31,13 @@ const vaciarCarrito = () => {
       <div className='contenedorSumaYResta'>
         <button disabled = {count <= 0} className='resta' onClick={quitarProducto}>-</button>
         <span className='nro'>{count}</span>
-        <button disabled = {count >= 7} className='suma' onClick={agregarProducto}>+</button>
+        <button disabled = {count >= stockProd} className='suma' onClick={agregarProducto}>+</button>
         
       </div>
 
       <div className='contenedorSumaYResta'>  
         <button disabled = {count <= 0} className='vaciarCarrito' onClick={vaciarCarrito}>Vaciar</button>
-        <button disabled = {count <= 0} className='vaciarCarrito' onClick={()=> onAdd(count)}>Confirmar compra</button>
+        <button disabled = {count <= 0} className='vaciarCarrito' onClick={()=> onAdd(count)}>Agregar al carrito</button>
       </div>
     </div>
   );

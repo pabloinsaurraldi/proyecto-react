@@ -16,11 +16,33 @@ const ShopProvider = ({ children }) => {
         for (const producto of productos) {
             cantidadTotal += producto.quantity
         }
-        return cantidadTotal
+        return cantidadTotal 
+    }
+
+    const descontarStock = () => {
+        let inventario = 0
+        for (const producto of productos) {
+            inventario = producto.quantity =- producto.stock
+        }
+        console.log(inventario);
+        return inventario
+    }
+
+    const totalAPagar = () => {
+        let total = 0
+        for (const producto of productos) {
+            total += producto.precio * producto.quantity
+        }
+        return total
+    }
+
+    const eliminarProducto = (id) => {
+        const productosfiltrados = productos.filter(producto => producto.id !== id)
+        setProductos(productosfiltrados)
     }
 
     return (
-        <Shop.Provider value = {{productos, agregaProducto, totalDelCarrito}}>
+        <Shop.Provider value = {{productos, agregaProducto, totalDelCarrito, totalAPagar, eliminarProducto, descontarStock}}>
             {children}
         </Shop.Provider>
     )

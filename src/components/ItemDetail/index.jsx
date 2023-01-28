@@ -1,4 +1,3 @@
-import React from 'react';
 import '../ItemDetail/styles.scss'
 import Cantidad from '../ItemCount';
 import { useContext, useState } from 'react';
@@ -12,10 +11,8 @@ const ItemDetail = ({ detail }) => {
     const {agregaProducto} = useContext(Shop)
 
     const onAdd = (cantidad) => {
-        console.log(`se agregaron esta cantidad de productos: ${cantidad}`);
         setQuantity(cantidad)
         agregaProducto({...detail, quantity: cantidad})
-    
     }
 
     return ( 
@@ -29,7 +26,6 @@ const ItemDetail = ({ detail }) => {
                         <h3 className="card-title"> {detail.categoria} </h3>
                         <h5 className="card-title"> {detail.modelo} </h5>
                         <p className="card-text"> {detail.detalle} </p>
-                        <p className="card-text"> <strong>Stock del Producto:</strong> {detail.stock} </p>
                              <div className='precios'>
                                 <div className='containerEfectivo'>
                                     <h5 className="card-text efectivo">Efectivo </h5>
@@ -48,6 +44,7 @@ const ItemDetail = ({ detail }) => {
                                             quantity === 0 ?
                                             <Cantidad 
                                             onAdd={onAdd}
+                                            stock={detail.stock}
                                         />
                                         : <button className='irAlCarrito'>
                                             <Link to="/carrito">

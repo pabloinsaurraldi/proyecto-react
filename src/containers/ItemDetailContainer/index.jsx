@@ -1,7 +1,8 @@
+import { doc, getDoc } from 'firebase/firestore';
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import ItemDetail from '../../components/ItemDetail';
-import componentes from '../../data/stock.json'
+import { db } from '../../firebase/config';
 import '../ItemListContainer/styles.scss'
 
 const ItemDetailContainer = () => {
@@ -12,26 +13,23 @@ const ItemDetailContainer = () => {
 
     useEffect(() => {
 
-        const traerProductoDetallado = () => {
+        const traerProductoDetallado = async () => {
+          const docRef = doc(db, "componentes", id)
+          const docSnap = await getDoc(docRef)
 
-        const productoDetallado = new Promise ((accept, reject) => {
-      setTimeout (() => {
-        accept (componentes)
-      }, 3000)
-    })
-
-    productoDetallado
-      .then(result => {
-        if(id) {
-          const detailProducto = result.find(producto => producto.id.toString() === id)
-          console.log(detailProducto);
-          setDetail(detailProducto)
-        } 
-        })
-      .catch(error => alert ('Error Inesperado'))
+          if (docSnap.exists()) {
+        const productDetail = {
+          id: docSnap.id,
+          ...docSnap.data()
+        }
+        setDetail(productDetail);
+      } else {
+         //doc.data() will be undefined in this case
+        console.log("No such document!");
       }
-
-      traerProductoDetallado()
+    }
+      
+    traerProductoDetallado()
 
   }, [id])
 

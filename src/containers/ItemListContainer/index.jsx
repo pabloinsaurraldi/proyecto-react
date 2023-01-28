@@ -1,60 +1,46 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import ItemList from '../../components/ItemList';
-import componentes from '../../data/stock.json'
 import './styles.scss';
 import { db } from '../../firebase/config';
-import { collection, getDocs } from "firebase/firestore"; 
+import { collection, getDocs, query, where } from "firebase/firestore"; 
 
 
 const ItemListContainer = () => {
 
+  
+  const {categoryId} = useParams()
+  
   const [productos, setProductos] = useState([])
 
-  console.log(db)
+  console.log(db);
 
-  const {categoryId} = useParams()
 
   useEffect (() => {
 
-    const traerProductos = async () => {
-      const querySnapshot = await getDocs(collection(db, "componentes"));
-      const componentesFirebase = []
+      const traerProductos = async () => {
+        let querySnapshot
+        if (categoryId) {
+          const q = query(collection(db, 'componentes'), where("categoria", "==", categoryId))
+          querySnapshot = await getDocs(q)
+        } else {
+          querySnapshot = await getDocs(collection(db, 'componentes'));
+      }
+      const productosFb = []
       querySnapshot.forEach((doc) => {
-        console.log(`${doc.id} => ${doc.data()}`);
-        const producto = {
+        const productos = {
           id: doc.id,
           ...doc.data()
         }
-        componentesFirebase.push(producto)
-  });
-  setProductos(componentesFirebase)
+        productosFb.push(productos)
+      });
 
-  }
-
+      setProductos(productosFb)
+    }
     traerProductos()
-
-    const promesa = new Promise ((accept, reject) => {
-      setTimeout (() => {
-        accept (componentes)
-      }, 3000)
-    })
-
-    promesa
-      .then((result) => {
-        if(categoryId) {
-          const filtroProductos = result.filter(producto => producto.categoria === categoryId)
-          setProductos(filtroProductos)
-        } else {
-          setProductos (result)
-        }
-        }
-        )
-      .catch((error) => {
-        alert("Error Inesperado")
-      })
-
-  }, [categoryId])
+  } 
+    , [categoryId])
+      
 
   return (
     <div className='contenedorDeCards'>
@@ -68,7 +54,7 @@ const ItemListContainer = () => {
             <div className="shadow"></div>
             <div className="shadow"></div>
             </div>
-        : <ItemList componentes={productos} /> 
+        : <ItemList productos={productos} /> 
       }
       
     </div>
