@@ -3,20 +3,30 @@
 }
 
 .posicion {
-  padding: 100px;
+  padding: 40px;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  .totalYPrecio {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+}
+.posicion2 {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  width: 100%;
+  gap: 30px;
+  align-items: center;
+  h2 {
     background-color: yellow;
-    margin: 50px;
-    padding-left: 25px;
-    padding-right: 25px;
   }
+  h3 {
+    background-color: yellow;
+  }
+}
+.posicionBoton {
+  display: flex;
+  justify-content: center;
 }
 .imgCarrito {
   height: 90px;
@@ -35,4 +45,14 @@
 .btnEliminar {
   background-color: black;
   border-radius: 10px;
+}
+.carritoVacio {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  img {
+    width: 350px;
+  }
 }

@@ -35,15 +35,9 @@ const NavBar = () => {
             <li><Link to= "/categoria/Teclados" className="dropdown-item">Teclados</Link></li>
           </ul>
         </li>
-        <li className="nav-item">
-          <a className="colorEnlaces" href="/#">Contactanos</a>
-        </li>
+    
        
       </ul>
-      <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn-outline-success colorBtn" type="submit">Search</button>
-      </form>
     </div>
   </div>
   <div>

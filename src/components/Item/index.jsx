@@ -8,7 +8,7 @@ const Item = ({component2}) => {
       <div className="card-body">
         <h4 className="card-title"> {component2.marca} </h4>
         <p className="card-text"> {component2.modelo} </p>
-        <Link to={`/detail/${component2.id}`} className="btn btn-primary">Ver mas</Link>
+        <Link to={`/detail/${component2.id}`} className="btn btn btn-dark">Ver mas</Link>
       </div>
     </div>
   )

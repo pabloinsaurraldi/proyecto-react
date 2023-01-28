@@ -6,6 +6,7 @@ import { db } from '../../firebase/config';
 import { collection, getDocs, query, where } from "firebase/firestore"; 
 
 
+
 const ItemListContainer = () => {
 
   
@@ -41,7 +42,6 @@ const ItemListContainer = () => {
   } 
     , [categoryId])
       
-
   return (
     <div className='contenedorDeCards'>
       {
