@@ -4,6 +4,7 @@ import ItemList from '../../components/ItemList';
 import './styles.scss';
 import { db } from '../../firebase/config';
 import { collection, getDocs, query, where } from "firebase/firestore"; 
+import Loader from '../../components/loader/spinner';
 
 
 
@@ -46,14 +47,7 @@ const ItemListContainer = () => {
     <div className='contenedorDeCards'>
       {
         Object.keys(productos).length ===0
-        ? <div className="wrapper">
-            <div className="circle"></div>
-            <div className="circle"></div>
-            <div className="circle"></div>
-            <div className="shadow"></div>
-            <div className="shadow"></div>
-            <div className="shadow"></div>
-            </div>
+        ? <Loader />
         : <ItemList productos={productos} /> 
       }
       
