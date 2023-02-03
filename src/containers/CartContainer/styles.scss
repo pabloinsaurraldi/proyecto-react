@@ -24,6 +24,15 @@
     background-color: yellow;
   }
 }
+.posicion3 {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
 .posicionBoton {
   display: flex;
   justify-content: center;

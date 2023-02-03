@@ -15,9 +15,6 @@ const ItemListContainer = () => {
   
   const [productos, setProductos] = useState([])
 
-  console.log(db);
-
-
   useEffect (() => {
 
       const traerProductos = async () => {

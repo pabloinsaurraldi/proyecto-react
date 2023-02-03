@@ -7,17 +7,17 @@ const generacionDeOrden = ({
     total = 0
 }) => {
 
-  return {
-    cliente: {
-        nombre: nombre,
-        email:email,
-        telefono: telefono,
-    },
-    items: cart,
+    return {
+        cliente: {
+            nombre: nombre,
+            email: email,
+            telefono: telefono,
+        },
+        items: cart,
 
-    total: total,
-    createdAt: new Date().toLocaleString()
-}
+        total: total,
+        createdAt: new Date().toLocaleString()
+    }
 }
 
 export default generacionDeOrden

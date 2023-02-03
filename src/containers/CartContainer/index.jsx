@@ -8,36 +8,43 @@ import TableRow from "./TableRow";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../../firebase/config";
 import { doc, updateDoc } from "firebase/firestore";
+import Swal from "sweetalert2"
 
 const Cart = () => {
   const { productos, totalAPagar, vaciarCarrito } = useContext(Shop);
 
   const [form, setForm] = useState(false);
 
-  const confirmarCompra = async () => {
-
-    const orden = generacionDeOrden({
-      //cargar los datos de generaciondeorden
-      nombre: "ficoseco",
-      email: "ficoseco@gmail.com",
-      telefono: 123456898,
+  const confirmarCompra = async (data) => {
+   
+     const orden = generacionDeOrden({
+      email: data.email,
+      nombre: data.nombre,
+      telefono: data.phone,
       cart: productos,
       total: totalAPagar(),
     });
 
-    const docRef = await addDoc(collection(db, "ordenes"), orden);
+    console.log(orden);
+    
+     const docRef = await addDoc(collection(db, "ordenes"), orden);
     vaciarCarrito();
 
     for (const productosEnCarrito of productos) {
-      const productoRef = doc(db, "componentes", productosEnCarrito.id)
-    
-    await updateDoc (productoRef, {
-      stock: productosEnCarrito.stock - productosEnCarrito.quantity
-    })
+      const productoRef = doc(db, "componentes", productosEnCarrito.id);
+
+      await updateDoc(productoRef, {
+        stock: productosEnCarrito.stock - productosEnCarrito.quantity,
+      });
     }
 
-    alert("Se confirmo la orden con el siguiente codigo ID: " + docRef.id);
-    setForm(false)
+    Swal.fire({
+  position: 'center',
+  icon: 'success',
+  title: 'Su orden ha sido confirmada. Podra consultar el estado de la misma con el siguiente nro de referencia : ' + docRef.id,
+  showConfirmButton: true,
+})
+    setForm(false); 
   };
 
   return (
@@ -69,10 +76,14 @@ const Cart = () => {
             <h2>Total</h2>
             <h3>$ {totalAPagar()} </h3>
           </div>
-         
+          <div className="posicion3">
             <button onClick={() => setForm(true)} className="finOperacion">
               Comprar
             </button>
+            <Link to="/">
+              <button className="finOperacion">Seguir comprando</button>
+            </Link>
+          </div>
         </>
       ) : (
         <>

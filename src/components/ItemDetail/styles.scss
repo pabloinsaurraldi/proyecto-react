@@ -23,6 +23,15 @@
     padding-top: 30px;
     align-items: center;
   }
+  .posicion3 {
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
   .precios {
     padding-top: 40px;
     .containerLista {
@@ -37,15 +46,15 @@
         display: flex;
         justify-content: center;
       }
-      .imgCuotas {
-        height: 80px;
-      }
-      .imgCuotas2 {
-        height: 140px;
-      }
     }
     .containerEfectivo {
       padding-bottom: 30px;
+      .imgCuotas {
+        height: 100px;
+      }
+      .imgCuotas2 {
+        height: 212px;
+      }
     }
     .efectivo {
       font-size: 35px;
