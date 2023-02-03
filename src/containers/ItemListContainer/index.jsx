@@ -8,6 +8,7 @@ import Loader from '../../components/loader/spinner';
 
 
 
+
 const ItemListContainer = () => {
 
   
@@ -45,7 +46,7 @@ const ItemListContainer = () => {
       {
         Object.keys(productos).length ===0
         ? <Loader />
-        : <ItemList productos={productos} /> 
+        :<ItemList productos={productos} /> 
       }
       
     </div>

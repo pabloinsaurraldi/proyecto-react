@@ -5,9 +5,13 @@
     #ad9553,
     black
   );
+  .colorDetalle {
+    background-color: azure;
+  }
   .imagenProducto {
     display: flex;
     align-items: center;
+    padding-left: 60px;
   }
   display: flex;
   flex-wrap: wrap;
@@ -62,4 +66,7 @@
       color: gray;
     }
   }
+}
+
+@media (max-width: 890px) {
 }

@@ -9,6 +9,8 @@ import { collection, addDoc } from "firebase/firestore";
 import { db } from "../../firebase/config";
 import { doc, updateDoc } from "firebase/firestore";
 import Swal from "sweetalert2"
+import './styles.scss';
+
 
 const Cart = () => {
   const { productos, totalAPagar, vaciarCarrito } = useContext(Shop);
@@ -40,8 +42,9 @@ const Cart = () => {
 
    Swal.fire({
   position: 'center',
+  title: 'Su orden ha sido confirmada.',
   icon: 'success',
-  title: 'Su orden ha sido confirmada. Podra consultar el estado de la misma con el siguiente nro de referencia : ' + docRef.id,
+  text: 'El nro de compra es : ' + docRef.id,
   showConfirmButton: true,
 }) 
     setForm(false); 

@@ -17,10 +17,10 @@ const ItemDetail = ({ detail }) => {
   return (
     <div className="card mb-3">
       <div className="row g-0">
-        <div className="col-md-4 imagenProducto">
+        <div className="col-md-4 imagenProducto colorDetalle">
           <img src={detail.imgSrc} className="img-fluid rounded-start" alt="" />
         </div>
-        <div className="col-md-8">
+        <div className="col-md-8  colorDetalle">
           <div className="card-body">
             <h3 className="card-title"> {detail.categoria} </h3>
             <h5 className="card-title"> {detail.modelo} </h5>
@@ -30,11 +30,6 @@ const ItemDetail = ({ detail }) => {
                 <h5 className="card-text efectivo">Efectivo </h5>
                 <h5 className="efectivo">${detail.precio}</h5>
 
-                <img
-                  className="imgCuotas"
-                  src="https://seeklogo.com/images/A/ahora-12-logo-857EC0D625-seeklogo.com.png"
-                  alt="logoAhora12"
-                />
                 <img
                   className="imgCuotas2"
                   src="https://s03.s3c.es/imag/_v0/487x453/2/5/a/mercado-pago.png"

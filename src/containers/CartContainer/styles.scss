@@ -56,12 +56,27 @@
   border-radius: 10px;
 }
 .carritoVacio {
+  text-align: center;
   padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
   img {
-    width: 350px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 890px) {
+  thead {
+    display: none;
+  }
+  tr {
+    display: flex;
+    flex-direction: column;
+  }
+  .posicion2 {
+    justify-content: space-evenly;
+    padding: 5px;
   }
 }

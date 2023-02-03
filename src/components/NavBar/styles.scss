@@ -26,3 +26,11 @@
     border-radius: 10px;
   }
 }
+
+@media (max-width: 890px) {
+  .colorEnlaces {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

@@ -1,18 +1,10 @@
-.contenedorDeCards {
-  background-image: linear-gradient(to bottom, black, grey);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 10px;
-  justify-content: center;
-  .card {
-    background-image: linear-gradient(
-      to top,
-      rgba(247, 235, 6, 0.87),
-      #ad9553,
-      black
-    );
-  }
+.card {
+  background-image: linear-gradient(
+    to top,
+    rgba(247, 235, 6, 0.87),
+    #ad9553,
+    black
+  );
 }
 .wrapper {
   width: 200px;

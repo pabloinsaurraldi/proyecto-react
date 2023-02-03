@@ -20,7 +20,7 @@ const NavBar = () => {
         </li>
 
           <li className="nav-item dropdown colorEnlaces">
-          <span className="dropdown-toggle colorEnlaces" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <span className="dropdown-toggle colorEnlaces" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Categorias
           </span>
           <ul className="dropdown-menu">
