@@ -15,7 +15,8 @@ const Formulario = ({ confirmarCompra }) => {
   
 
   return (
-        <form className="formularioCompra" onSubmit={handleSubmit(onSubmit)}>
+    <div className="formularioCompra">
+        <form onSubmit={handleSubmit(onSubmit)}>
                 <label className="labels">Nombre</label>
                 <input
                   {...register("nombre", {
@@ -34,7 +35,7 @@ const Formulario = ({ confirmarCompra }) => {
                 )}
                 {errors?.email?.type === "required" && <p>El campo email es requerido</p>}
                 <label className="labels">Telefono</label>
-                <input type="number" {...register("phone", { min: 10, maxLength: 10, required: true })} />
+                <input type="number" {...register("phone", { minLength: 10, maxLength: 10, required: true })} />
                 {errors?.phone?.type === "minLength" && (
                   <p>El teléfono debe tener 10 digitos</p>
                 )}
@@ -44,7 +45,7 @@ const Formulario = ({ confirmarCompra }) => {
                   Confirm purchase
                 </button>
             </form>
-  
+  </div>
   );
 };
 

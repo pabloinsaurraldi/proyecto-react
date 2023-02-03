@@ -25,7 +25,6 @@ const Cart = () => {
       total: totalAPagar(),
     });
 
-    console.log(orden);
     
      const docRef = await addDoc(collection(db, "ordenes"), orden);
     vaciarCarrito();
@@ -38,12 +37,13 @@ const Cart = () => {
       });
     }
 
-    Swal.fire({
+
+   Swal.fire({
   position: 'center',
   icon: 'success',
   title: 'Su orden ha sido confirmada. Podra consultar el estado de la misma con el siguiente nro de referencia : ' + docRef.id,
   showConfirmButton: true,
-})
+}) 
     setForm(false); 
   };
 
